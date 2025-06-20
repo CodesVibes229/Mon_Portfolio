@@ -3,7 +3,7 @@ services:
     name: mon-portfolio
     env: python
     buildCommand: ""
-    startCommand: gunicorn app:app
+    startCommand: gunicorn run:app
     envVars:
       - key: PORT
         value: 10000
