@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="text-2xl font-semibold mb-4">Mes Compétences</h2>
+<ul class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    {% for skill in skills %}
+    <li class="bg-gray-800 p-4 rounded">
+        <strong>{{ skill.name }}</strong> – {{ skill.level }}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

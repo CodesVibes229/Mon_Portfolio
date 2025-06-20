@@ -1,0 +1,17 @@
+[
+    {
+        "title": "To-Do List API",
+        "description": "Une API RESTful permettant de gérer une liste de tâches avec des fonctionnalités d'authentification pour que chaque utilisateur puisse gérer ses propres tâches.",
+        "link": "https://github.com/CodesVibes229/To-do_list.git"
+    },
+    {
+        "title": "Gestion de Notes avec Flask",
+        "description": "Une application de gestion de note en ligne",
+        "link": "https://github.com/CodesVibes229/gestion_note.git"
+    },
+    {
+        "title": "Gestion des Finances - Flask & PostgreSQL",
+        "description": "Cette application web permet de gérer ses finances personnelles. Elle offre des fonctionnalités d'authentification, d'ajout et de suivi des transactions.\n\n    Backend : Flask (Python) avec PostgreSQL\n    Frontend : HTML, Tailwind CSS, JavaScript\n",
+        "link": "https://github.com/CodesVibes229/Finance_tracker.git"
+    }
+]
